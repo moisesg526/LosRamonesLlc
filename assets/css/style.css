@@ -3854,12 +3854,7 @@ input[type=search]::-webkit-search-results-decoration {
 #testimonial-1 .testimonial-author {
   margin-top: 30px;
 }
-#testimonial-1 .testimonial-author img {
-  width: 80px !important;
-  height: 80px !important;
-  border-radius: 50%;
-  display: inline-block !important;
-}
+
 #testimonial-1 .testimonial-wrapper .owl-nav button.owl-prev,
 #testimonial-1 .testimonial-wrapper .owl-nav button.owl-next {
   width: 45px;
