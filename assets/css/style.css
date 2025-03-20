@@ -5398,6 +5398,13 @@ input[type=search]::-webkit-search-results-decoration {
   position: relative;
   z-index: -1;
 }
+
+.footer-area a {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-area {
     padding: 100px 50px;
