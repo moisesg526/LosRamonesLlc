@@ -3878,7 +3878,12 @@ input[type="search"]::-webkit-search-results-decoration {
 #testimonial-1 .testimonial-author {
   margin-top: 30px;
 }
-
+#testimonial-1 .testimonial-author img {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  display: inline-block !important;
+}
 #testimonial-1 .testimonial-wrapper .owl-nav button.owl-prev,
 #testimonial-1 .testimonial-wrapper .owl-nav button.owl-next {
   width: 45px;
@@ -5422,13 +5427,6 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   z-index: -1;
 }
-
-a {
-  position: relative;
-  z-index: 10;
-  pointer-events: auto;
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-area {
     padding: 100px 50px;
@@ -5543,7 +5541,7 @@ a {
 
 /* Breadcrumb Section  */
 .breadcrumb-area {
-  background-image: url(../img/indoor-work.jpeg);
+  background-image: url(../img/bread-bg.jpg);
 }
 
 .breadcrumb-area {

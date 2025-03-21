@@ -33,7 +33,6 @@
     $(".extra-info,.offcanvas-overlay").removeClass("active");
   });
 
-
   // data-backround
 
   $("[data-background").each(function () {
@@ -141,84 +140,81 @@
     },
   });
 
+  // Testimonial One
 
-    // Testimonial One
+  $(".testimonial-wrapper").owlCarousel({
+    items: 1,
+    dots: false,
+    nav: true,
+    loop: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    smartSpeed: 3000,
+    slideSpeed: 300,
+    margin: 30,
+    navText: [
+      "<i class='las la-arrow-left'></i>",
+      "<i class='las la-arrow-right'></i>",
+    ],
+  });
 
-    $(".testimonial-wrapper").owlCarousel({
-      items: 1,
-      dots: false,
-      nav: true,
-      loop: true,
-      autoplay: false,
-      autoplayTimeout: 5000,
-      smartSpeed: 3000,
-      slideSpeed: 300,
-      margin: 30,
-      navText: [
-        "<i class='las la-arrow-left'></i>",
-        "<i class='las la-arrow-right'></i>",
-      ],
-    });
+  // Testimonial Two
 
-    // Testimonial Two
-
-    $(".testimonial-slider").owlCarousel({
-      items: 1,
-      dots: true,
-      nav: false,
-      loop: true,
-      autoplay: false,
-      autoplayTimeout: 5000,
-      smartSpeed: 3000,
-      slideSpeed: 300,
-      margin: 30,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false,
-          dots: true,
-        },
-        600: {
-          items: 1,
-          nav: false,
-          dots: true,
-        },
-        768: {
-          items: 2,
-          nav: false,
-          dots: true,
-        },
-        1100: {
-          items: 3,
-          nav: false,
-          dots: true,
-        },
+  $(".testimonial-slider").owlCarousel({
+    items: 1,
+    dots: true,
+    nav: false,
+    loop: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    smartSpeed: 3000,
+    slideSpeed: 300,
+    margin: 30,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+        dots: true,
       },
-      navText: [
-        "<i class='las la-arrow-left'></i>",
-        "<i class='las la-arrow-right'></i>",
-      ],
-    });
+      600: {
+        items: 1,
+        nav: false,
+        dots: true,
+      },
+      768: {
+        items: 2,
+        nav: false,
+        dots: true,
+      },
+      1100: {
+        items: 3,
+        nav: false,
+        dots: true,
+      },
+    },
+    navText: [
+      "<i class='las la-arrow-left'></i>",
+      "<i class='las la-arrow-right'></i>",
+    ],
+  });
 
-  
-    // Testimonial Three
+  // Testimonial Three
 
-    $(".testimonial-wrapper").owlCarousel({
-      items: 1,
-      dots: false,
-      nav: true,
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      smartSpeed: 3000,
-      slideSpeed: 300,
-      margin: 30,
-      navText: [
-        "<i class='las la-arrow-left'></i>",
-        "<i class='las la-arrow-right'></i>",
-      ],          
-    });
-
+  $(".testimonial-wrapper").owlCarousel({
+    items: 1,
+    dots: false,
+    nav: true,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    smartSpeed: 3000,
+    slideSpeed: 300,
+    margin: 30,
+    navText: [
+      "<i class='las la-arrow-left'></i>",
+      "<i class='las la-arrow-right'></i>",
+    ],
+  });
 
   // Feature Slider
 
@@ -259,12 +255,12 @@
       },
 
       575: {
-        items: 1,        
+        items: 1,
         dots: false,
       },
 
       767: {
-        items: 2,        
+        items: 2,
         dots: true,
       },
 
@@ -274,11 +270,10 @@
       },
       1200: {
         items: 3,
-        dots: true,        
+        dots: true,
       },
     },
   });
-
 
   //Progress Bar JS
 
@@ -332,7 +327,6 @@
     });
   });
 
-
   // Masonry Filter
 
   $(window).on("load", function () {
@@ -363,7 +357,6 @@
         );
       });
   });
-
 
   // Contact Form
 
